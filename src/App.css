@@ -684,10 +684,7 @@ textarea:focus-visible {
 
     .timeline-visual {
         grid-template-columns: 1fr;
-    }
-
-    .visual-placeholder:nth-child(2) {
-        display: none;
+        gap: 1rem;
     }
 
     .visual-placeholder {
