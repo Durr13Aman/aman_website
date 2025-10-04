@@ -692,6 +692,10 @@ textarea:focus-visible {
         height: 200px;
     }
 
+    .visual-placeholder img {
+        object-fit: contain;
+    }
+
     .placeholder-icon {
         font-size: 2.5rem;
     }
