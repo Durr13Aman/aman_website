@@ -69,7 +69,7 @@ function Journey() {
                   <p>Electricity Generating Shoe</p>
                 </div>
               </div>
-              <div className="visual-placeholder">
+              <div className="visual-placeholder robot-image">
                 <img src="/images/robot.png" alt="Path Cleaning Robot" onError={(e) => {
                   e.target.style.display = 'none';
                   e.target.parentElement.querySelector('.placeholder-fallback').style.display = 'flex';

@@ -689,11 +689,15 @@ textarea:focus-visible {
 
     .visual-placeholder {
         max-width: 100%;
-        height: 200px;
+        height: 250px;
     }
 
-    .visual-placeholder img {
-        object-fit: contain;
+    .ai-visual img {
+        object-position: center top;
+    }
+
+    .robot-image img {
+        object-position: center 20%;
     }
 
     .placeholder-icon {
